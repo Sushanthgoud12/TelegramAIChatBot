@@ -27,8 +27,8 @@ async function getGeminiResponse(userInput) {
       throw new Error("Invalid API Response Format");
     }
   } catch (error) {
-    console.error("❌ Gemini API Error:", error.response?.data || error.message);
-    return "⚠️ Error: Could not process your request. Please try again later.";
+    console.error(" Gemini API Error:", error.response?.data || error.message);
+    return " Error: Could not process your request. Please try again later.";
   }
 }
 

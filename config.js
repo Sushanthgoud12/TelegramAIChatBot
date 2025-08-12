@@ -19,17 +19,17 @@ console.log(
 );
 
 if (!process.env.BOT_TOKEN) {
-  console.error("❌ BOT_TOKEN is not set in environment variables!");
+  console.error(" BOT_TOKEN is not set in environment variables!");
   process.exit(1);
 }
 
 if (!process.env.MONGO_URI) {
-  console.error("❌ MONGO_URI is not set in environment variables!");
+  console.error(" MONGO_URI is not set in environment variables!");
   process.exit(1);
 }
 
 if (!process.env.GEMINI_API_KEY) {
-  console.error("❌ GEMINI_API_KEY is not set in environment variables!");
+  console.error(" GEMINI_API_KEY is not set in environment variables!");
   process.exit(1);
 }
 

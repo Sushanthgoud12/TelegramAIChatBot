@@ -5,6 +5,7 @@ const userSchema = new mongoose.Schema({
   username: String,
   chatId: Number,
   phoneNumber: String,
+  lastMessage:String,
 });
 
 module.exports = mongoose.model("User", userSchema);
